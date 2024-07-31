@@ -28,4 +28,4 @@ Directory **1_ERP_ERO** contains all necessary algorithms for ERP/ERO analysis a
 
 ### Licenses
 
-This project is licensed under the MIT License - see the LICENSE_MIT for details. Also check LICENSE_eeglab.
+This project is licensed under the MIT License - see the LICENSE file for details. Also check LICENSE_eeglab.
