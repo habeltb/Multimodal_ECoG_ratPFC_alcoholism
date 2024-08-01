@@ -16,14 +16,15 @@ This script provides the steps involved in our analyses of diverse neural biomar
 
 To analyse data in EEGLab, data must be available in set/fdt-file formats 
 requiring some preparatory steps: 
-- upload Intan recording data containing neural data and the applied auditory stimuli into Matlab using read_Intan_RHD2000_file.m provided from Intan Technologies: https://intantech.com/downloads.html?tabSelect=Software&yPos=0
-- open EEGLAB and add sound trigger information using FindMarkers.m and channel labels (channel_labels.ced)
+- upload Intan recording data containing neural data and the applied auditory stimuli into Matlab using read_Intan_RHD2000_file.m provided by Intan Technologies: https://intantech.com/downloads.html?tabSelect=Software&yPos=0
+- open EEGLAB and add channel labels (channel_labels.ced)
+- for ERP/ERO analysis, detect and add sound trigger information using FindMarkers.m (see directory 1_ERP_ERO)
 
 Save the files via EEGLAB to get the required file formats incl. all necessary information for subsequent data processing and analysis.
 
 ### Contents
 
-Directory **1_ERP_ERO** contains all necessary algorithms for ERP/ERO analysis and exemplary data of the animal represented in Figure S2a of manuscript 2 (currently under revision).
+Directory **1_ERP_ERO** contains all necessary algorithms for ERP/ERO analysis. The provided exemplary data stems from the animal whose ERP curves are displayed in Figure S2a of manuscript 2 (currently under revision).
 
 
 ### Licenses
