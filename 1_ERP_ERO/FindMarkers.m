@@ -11,7 +11,7 @@ hold on
     %plot(sound)
     Smax=max(sound);
     
-    %Find indeces of all sound trains
+    %Find indices of all sound trains
     TrainsAll_index=find(sound>0.2*Smax);% 0.2*Smax is a threshold to define both sound types
     a=diff(TrainsAll_index);
     b=horzcat([1],a);
@@ -19,7 +19,7 @@ hold on
     MarkersAll=horzcat(TrainsAll_index(1),TrainsAll_index(c));
     plot(MarkersAll,0.3*ones(size(board_adc_data(MarkersAll))),'r*')    %Find indices of all sound trains
     
-    %Find indeces of High sound trains
+    %Find indices of High sound trains
     TrainsAll_index=find(sound>0.75*Smax);% 0.75*Smax is a threshold to define High sound
     a=diff(TrainsAll_index);
     b=horzcat([1],a);
