@@ -3,7 +3,7 @@ Script contributed by D. Afanasenkau (2021)
 %Load board_adc_data.mat from Intan recording file then
 %run in command line: event = FindMarkers_test(board_adc_data);
 %and then EEG.event=event
-function event = FindMarkers3(sound)
+function event = FindMarkers(sound)
 sound=board_adc_data;
 plot(sound)
 hold on
