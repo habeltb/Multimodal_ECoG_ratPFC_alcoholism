@@ -1,4 +1,4 @@
-Script contributed by D. Afanasenkau (2021)
+%Script contributed by D. Afanasenkau (2021): https://github.com/Dimarfin
 
 %Load board_adc_data.mat from Intan recording file then
 %run in command line: event = FindMarkers_test(board_adc_data);
