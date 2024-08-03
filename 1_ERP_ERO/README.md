@@ -8,7 +8,7 @@ Pre-processing steps include:
 1. Filtering the data: here 0.1 - 45 Hz bandpass FIR filter
 2. Epoching the data: here from 100 ms before to 700 ms after sound onset
 3. Here, a baseline correcture using the time interval of 100 ms before sound onset has been applied to reduce temporal drifting of the signal
-4. Noisy pochs with artifacts have been excluded 1) automatically using eeg_rejdelta.m, here with a threshold exceeding 600 µV and 2) manually after visual inspection to detect noisy signals (e.g. due to gnawing) not exceeding the delta threshold but un-related to the task, i.e. auditory perception
+4. Noisy epochs with artifacts have been excluded 1) automatically using eeg_rejdelta.m, here with a threshold exceeding 600 µV and 2) manually after visual inspection to detect noisy signals (e.g. due to gnawing) not exceeding the delta threshold but un-related to the task, i.e. auditory perception
 5. Averaging of all remaining, clean epochs per sound and animal 
 
 Analysis & Visualisation include:
